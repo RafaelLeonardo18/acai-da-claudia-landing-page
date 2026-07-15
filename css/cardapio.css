@@ -1,0 +1,54 @@
+#cardapio {
+    background: #fafafa;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.menu-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+    transition: .3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-6px);
+}
+
+.menu-card h3 {
+    color: var(--roxo);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu-card ul {
+    list-style: none;
+}
+
+.menu-card li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-card li:last-child {
+    border-bottom: none;
+}
+
+.menu-observacao {
+    margin-top: 35px;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+}
