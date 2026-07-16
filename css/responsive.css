@@ -50,6 +50,18 @@
         height: 55px;
     }
 
+    .whatsapp-texto{
+        display:none;
+    }
+
+    .whatsapp{
+        width:65px;
+        height:65px;
+        padding:0;
+        justify-content:center;
+        border-radius:50%;
+    }
+
 }
 
 @media(max-width:480px) {
